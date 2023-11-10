@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Swipper Js -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="icon" href="images/logo2.png" type="image/icon type">
+  <title>Sarthak Research</title>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+
+<body style="display: flex;">
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="your-logo">
+      <img src="images/logo2.png" alt="logo" class="logo-img">
+      <div class="aim-container" style="text-align: center;">
+        <div class="aim1" style="color: green; ">
+          <!-- CREATING A GREENER FUTURE -->
+          <i style=" line-height:1.5;"> Sarthak Patnaik</i>
+        </div>
+        <div class="aim1" style="color:red;">
+          <!-- ONE BATTERY AT A TIME -->
+          <i style=" line-height:1.5;">Research Portfolio</i>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- <div class="nav-links-container"> -->
+    <div class="iit-logo-container">
+      <div style="text-align : center; ">
+        <img src="images/iitbombay.png" alt="logo" class="iit-logo-img">
+        <!-- <span style="margin-top:-10px;">2021</span> -->
+      </div>
+      <div id="bbsr" style="text-align: center;">
+        <img src="images/iitbbsr.png" alt="logo" class="iit-logo-img">
+      </div>
+    </div>
+
+    <!-- navmenu for medium and upper size screens -->
+    <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+    <ul class="nav-links" id="nav-items-list">
+      <li class="end-brdr"><a href="#home" class="nav-links-item" id="home_" onclick="set_active_state('home')">Home</a>
+      </li>
+      <li class="end-brdr"><a href="#research" class="nav-links-item" id="research_"
+          onclick="set_active_state('research')">Research </a></li>
+      <li class="end-brdr"><a href="#publications" class="nav-links-item" id="publications_"
+          onclick="set_active_state('publications')">Publications</a></li>
+      <li class="end-brdr"><a href="#experience" class="nav-links-item" id="experience_"
+          onclick="set_active_state('experience')">Experience</a></li>
+      <li class="end-brdr"><a href="#skills" class="nav-links-item" id="skills_"
+          onclick="set_active_state('skills')">Skills</a></li>
+      <!-- Made change to look -->
+      <li class="end-brdr"><a href="#acheivements" class="nav-links-item" id="achievements_"
+          onclick="set_active_state('achievements')">Achievements</a></li>
+      <li class="end-brdr"><a href="#more" class="nav-links-item" id="more_" style="display: flex;">
+          <ul class="dropdown">
+            <span
+              style="display: flex; justify-content:center; align-items:center; white-space: nowrap; color:red;">More&nbsp;
+              <!-- <svg
+                style="font-size:18px;" class="icon" width="14" height="16" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 320 512">
+                <path
+                  d="M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z" />
+              </svg> -->
+              <svg style="font-size:18px;" enable-background="new 0 0 26 26" height="16px" id="Layer_1" version="1.1"
+                viewBox="0 0 26 26" width="16px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g>
+                  <polygon fill="#FF0000" fill="#505050"
+                    points="0.046,2.582 2.13,0.498 12.967,11.334 23.803,0.498 25.887,2.582 12.967,15.502  " />
+                  <polygon fill="#FF0000" fill="#505050"
+                    points="0.046,13.582 2.13,11.498 12.967,22.334 23.803,11.498 25.887,13.582 12.967,26.502  " />
+                </g>
+              </svg>
+            </span>
+            <div class="dropdown-content">
+              <a href="#key-courses" onclick="set_active_state('key-courses')" id="key-courses_">Key Courses</a>
+              <a href="#key-courses" onclick="set_active_state('course-project')" id="course-project_">Course
+                Projects</a>
+              <a href="#certificates" onclick="set_active_state('certificates')" id="certificates_">Certifications</a>
+              <a href="#resposibilities" onclick="set_active_state('resposibilities')"
+                id="resposibilities_">Responsibilities</a>
+              <a href="#extra-curriculars" onclick="set_active_state('extra-curriculars')"
+                id="extra-curriculars_">Extra-Curriculars</a>
+            </div>
+          </ul>
+        </a>
+      </li>
+      <li><a href="#contactme" class="nav-links-item" id="contactme_"
+          onclick="set_active_state('contactme')">Contact</a></li>
+    </ul>
+
+
+
+    <!-- <div>more section will include POR+EXCur.+ Key Courses + certifications</div> -->
+    <!-- </div> -->
+  </nav>
+  <div class="main-container">
+    <!-- main container  -->
+
+
+
+
+    <!-- Home Section Starts   -->
+    <div id="home" class="hi">
+      <!-- Centre Carousel  -->
+      <span class="swiper-outer">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <!-- <div class="swiper-slide ">
+              <img
+                src="https://images.pexels.com/photos/3153199/pexels-photo-3153199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="photo-1" class="photo">
+              <span class="shot- Description"></span>
+            </div> -->
+            <!-- <div class="swiper-slide"><img
+                src="https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="photo-2" class="photo"></div> -->
+            <!-- <div class="swiper-slide"><img
+                src="https://images.pexels.com/photos/8439093/pexels-photo-8439093.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="photo-2" class="photo"></div> -->
+            <div class="swiper-slide"><img src="images/IIT-img.png" alt="photo-2" class="photo">
+            </div>
+            <div class="swiper-slide"><img src="images/IIT2-img.jpeg" alt="photo-2" class="photo"></div>
+            <div class="swiper-slide"><img src="images/solar_pannel.jpeg" alt="photo-2" class="photo"></div>
+            <div class="swiper-slide"><img src="images/convocation.jpg" alt="photo-2" class="photo"></div>
+            <div class="swiper-slide"><img src="images/nature.jpeg" alt="photo-2" class="photo">
+            </div>
+            <div class="swiper-slide"><img src="images/self_con.jpeg" alt="photo-2" class="photo"></div>
+            <div class="swiper-slide" style="text-align:center;" data-swiper-speed="250"><img
+                src="images/Slideshow2.jpeg" alt="photo-2" class="photo"></div>
+            <div class="swiper-slide" style="text-align:center;" data-swiper-speed="250"><img src="images/slideshow.png"
+                alt="photo-2" class="photo"></div>
+
+
+
+            <!-- <div class="swiper-slide"><img src="images/IIT2-img.jpeg" alt="photo-2" class="photo"></div> -->
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </span>
+
+      <div class="mission-statement-container" style="justify-content: space-evenly;">
+        <p class="mission-statement" style="line-height: 1.5;text-align:justify; font-size:15.75px;">I am Sarthak
+          Patnaik, an alumnus of
+          the <span><a href="https://www.iitb.ac.in/" target="_blank" style="color:blue;">Indian Institute of Technology
+              Bombay
+              (IITB)</a></span>&nbsp;, where I earned my Master of Technology degree in Material Science.
+          I&nbsp;graduated as the
+          topper of my specialization and second in my department. My IITB research, under the guidance of <span><a
+              href="https://www.iitb.ac.in/mems/en/prof-s-saxena" target="_blank" style="color:blue;"
+              style="white-space:nowrap;">Prof. Sumit Saxena</a></span> , focused on designing sustainable recycling
+          routes for efficient lithium recovery and direct
+          recycling of end-of-life lithium iron phosphate (LFP) batteries. This research led to notable <span><a
+              href="#publications" style="color:blue;" onclick="set_active_state('publications')">
+              Publications</a></span>,
+          <span><a href="#publications" style="color:blue;" onclick="set_active_state('publications')">
+              Patents</a></span>, and
+          acceptance in an<span><a href="#publications" style="color:blue;" onclick="set_active_state('publications')">
+              International Conference</a></span>.
+          <br> <br>
+          I hold a Bachelor of Engineering in Metallurgical Engineering and Material Science from the <span><a
+              href="https://www.iitbbs.ac.in/" target="_blank" style="color:blue;">Indian Institute of Technology
+              Bhubaneswar (IITBBS)</a></span>. During my tenure at IITBBS, I researched under the guidance of <span><a
+              href="https://www.iitbbs.ac.in/profile.php/soobhankar/" target="_blank" style="color:blue;"
+              style="white-space:nowrap;">Prof.Soobhankar Pati</a></span> , designing hydrometallurgical routes for
+          direct
+          recycling of End-of-Life Li-ion batteries.
+          This&nbsp;research led to a first-place finish in a National Hackathon, attending a <span><a
+              href="#publications" style="color:blue;" onclick="set_active_state('publications')"> <span><a
+                  href="#publications" style="color:blue;" onclick="set_active_state('publications')"> National
+                  Workshop</a></span></a></span>, as well as a notable <span><a href="#publications" style="color:blue;"
+              onclick="set_active_state('publications')"> Publication</a></span> and a
+          <span><a href="#publications" style="color:blue;" onclick="set_active_state('publications')">
+              Patent</a></span>.
+          <br> <br>
+          Beyond academia, my concern for the environment has led me to actively contribute in an entrepreneurial
+          setting at <a href="https://cellark.in/" target="_blank" style="color: blue;">Cellark</a> , where I have
+          worked with various technologies in the domain of sustainable engineering. My
+          knack for out-of-the-box solutions resulted in my representing Cellark at <span><a
+              href="https://schulich.yorku.ca/news/together-2021-ignites-student-entrepreneurs-in-india-and-canada/"
+              target="_blank" style="color:blue;" style="white-space:nowrap;">Together 2021</a></span>, a venture
+          contest
+          organized by the Government of India and the <a href="https://schulich.yorku.ca/" target="_blank"
+            style="color:blue;">Schulich School of Business</a> Canada.
+          <br> <br>
+          Beyond research, I am a globetrotter passionate about <a href="#extra-curriculars"
+            onclick="set_active_state('extra-curriculars')" style="color:blue;"> wildlife photography</a> and an
+          <a href="#acheivements" style="color:blue;" onclick="set_active_state('achievements')">internationally-rated
+            quizzer</a>, always on the lookout for mind-bending facts and trivia.
+          Explore my research and join my innovation journey.
+        </p>
+        <div class="mission-statement-img-container"
+          style="border-radius: 100rem; box-shadow:0px 0px 3.5px grey; overflow:hidden;"><img
+            class="mission-statement-img" src="images/self-img.png" alt="mission-img" />
+        </div>
+
+      </div>
+    </div>
+    <!-- Home Section Ends -->
+
+
+    <!-- Research Section Starts  -->
+    <div id="research" class="hi">
+      <div class="projects-container">
+        <div class="heading">Research Themes</div>
+        <div class="theme-img">
+          <img src="images/ResearchTheme.png" alt="theme-img" class="them-img">
+        </div>
+
+        <div class="project-card-container">
+          <div class="heading" style="text-align: center; width:98%;">Research Projects</div>
+
+          <div class="project-card" style="box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-card-img">
+              <img src="images/ResearchPro1.png" alt="phto" class="project-card-img"              
+              style="box-shadow: 0px 0px 5px grey; padding: 0;">
+            </div>
+            <div class="project-content">
+              <div class="project-card-heading"><i>Recycling of Lithium Iron Phosphate (LFP) Batteries</i></div>
+
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Developed an efficient and cost-effective microwave assisted delithiation processfor LFP batteries
+                  </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Enabled
+                    high yield lithium and iron phosphate recovery and showed potential for industrial
+                    scalability</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Liquid
+                    state
+                    Lithiation routes were developed enabling regeneration of
+                    LiFePO<sub>4</sub> from spent LFP</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Liquid
+                    state
+                    Sodiation routes were developed enabling regeneration of
+                    NaFePO<sub>4</sub> from spent LFP</span></li>
+
+
+              </ul>
+
+            </div>
+          </div>
+
+
+          <div class="project-card" style="box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-card-img">
+              <img src="images/ResearchPro2.jpeg" alt="phto" class="project-card-img"
+              style="box-shadow: 0px 0px 5px grey; padding: 0;">
+            </div>
+            <div class="project-content">
+              <div class="project-card-heading"><i>Novel Process for Recycling of Li-ion Batteries</i></div>
+
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Conceptualized and further Lab Validated a Novel Route for Direct Recycling of Li-ion batteries
+                  </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Aspects of Hydro Metallurgy, Pyro Metallurgy and Preprocessing were evaluated for developed
+                    process</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Solid state relithiation studies were carried out by heating a lithium source in a reducing
+                    atmosphere</span>
+                </li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Thermodynamic model and basic floor plan desing for the developed process</span>
+                </li>
+
+
+              </ul>
+
+            </div>
+          </div>
+
+
+          <div class="project-card" style="box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-card-img">
+              <img src="images/ResearchPro3.jpg" alt="phto" class="project-card-img"
+              style="box-shadow: 0px 0px 5px grey; padding: 0;">
+            </div>
+            <div class="project-content"style="align-self:flex-start;">
+              <div class="project-card-heading"><i>Recycling of End of Life Solar Panels</i></div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Worked on establishing routes for End of Life Photo Voltaic (PV) Module
+                    Recycling
+                  </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Critical Material Recovery (Glass, Si-Wafer, Connecting Nodes) using hydrometallurgical
+                    routes</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                  EOL PV Modules being explored as a source of Si for potential electrodes for high-capacity LiBs</span></li>
+
+
+              </ul>
+
+            </div>
+          </div>
+
+
+
+          <div class="project-card" style="box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-card-img">
+              <img
+                src="images/ResearchPro5.jpeg" style="box-shadow: 0px 0px 5px grey; padding: 0;"
+                alt="phto" class="project-card-img">
+            </div>
+            <div class="project-content" style="align-self: flex-start;">
+              <div class="project-card-heading"><i>Development of Electro-less Deposition Techniques for Platinum Catalysts</i></div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                  Designed Electro-less deposition techniques for platinum deposition on gold nano-particles
+                  </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                  The process showed potential for development of Fuel Cell catalysts</span></li>
+              
+
+
+              </ul>
+
+            </div>
+          </div>
+
+
+          <div class="project-card" style="box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-card-img">
+              <img
+                src="images/ResearchPro4.jpeg" style="box-shadow: 0px 0px 5px grey; padding: 0;"
+                alt="phto" class="project-card-img" >
+            </div>
+            <div class="project-content" style="align-self: flex-start;">
+              <div class="project-card-heading"><i>Corrosion Studies of the Konark Sun Temple's Iron Beams</i></div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                  Working on investigating the Integrity of the Iron Beams at Konark Sun Temple
+                  </span></li>
+                  <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                    Carried out electrochemical studies to evaluate corrosion behavior of 13<sup>th</sup> century Iron beams</span></li>
+                    <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                      Project aims to gain insights into archeological corrosion enabling protection of monuments</span></li>
+                    
+
+
+              </ul>
+
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Research SectionEnds -->
+
+    <!-- Publication Section Starts  -->
+    <div id="publications" class="hi" style="display:flex; flex-direction:column;">
+      <div class="projects-container" style="margin-top:0vh;">
+        <div class="heading" style="text-decoration: underline;">Conferences</div>
+
+        <div class="patent-card-container">
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <i href="https://www.gcdem2023.com/" class="project-card-heading" target="_blank"
+                style="color: black;font-weight:700; font-size: 20px; color:#0043ff; width: 100%; text-align: center; color:black;">
+                Global Conference for Decarbonization
+                of Energy and Materials (GC-DEM 2023)</i>
+              <div class="patent-details">
+                <img
+                  src="https://static.wixstatic.com/media/4a20f9_d7552b09a1c34f6f88f8a72a652229b0~mv2.jpeg/v1/fill/w_148,h_103,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202023-08-03%20at%2010_21_43%20PM.jpeg"
+                  alt="gcdem" style="display:inline; 
+                  box-shadow: 0px 0px 5px rgb(124, 124, 124);">
+                <p class="project-card-description " style="display:inline; ">
+                  Accepted abstract on <b> <i> Lithuim Recycling from End-of-Life LFP Batteries</b></i> <br>
+                  Date: December 27th-30th, 2023 (Upcoming)<br>
+                  Authors : <b> Sarthak&nbsp;Patnaik</b>, Dr.&nbsp;Shobha&nbsp;Shukla, Dr.&nbsp;Sumit&nbsp;Saxena <br>
+                  Venue: Nanyang Technological University (NTU), Singapore
+                </p>
+              </div>
+              <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/"
+                    target="_blank" style="color: black;">LINK</a></button></div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- confrences over -->
+      <div class="projects-container" style="margin-top:0vh;">
+        <div class="heading" style="text-decoration: underline;">Publications</div>
+
+
+        <div class="patent-card-container">
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i> Recycling End-of-Life Lithium Iron Phosphate Lithium-ion Batteries:
+                  A&nbsp;Sustainable&nbsp;Source&nbsp;of&nbsp;Lithium</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/publications1.jpeg" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 10px black;" width="120px">
+                <p class="project-card-description " style="display:inline; ">
+                  Journal : Journal of Power Sources <b> (Under 2nd Round of Review)</b><br>
+                  Authors : <b> Sarthak&nbsp;Patnaik</b>, Dr.&nbsp;Shobha&nbsp;Shukla, Dr.&nbsp;Sumit&nbsp;Saxena
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i> Li-ion Batteries: An Overview on Commercial Electrode Advances</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/publications3.jpeg" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 10px black;" width="120px">
+                <p class="project-card-description " style="display:inline; ">
+                  Journal : Battries (MDPI) <b> (Under Review)</b><br>
+                  Author : <b> Sarthak&nbsp;Patnaik</b>
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <i class="project-card-heading" target="_blank"
+                style="color: black; font-size: 20px; color:#0043ff; width: 100%; text-align: center ;color:black;font-weight:700;">
+                Available Technologies for Remanufacturing, Repurposing, and Recycling <br> Lithium-ion Batteries: An
+                Introduction</i>
+              <div class="patent-details">
+                <img src="images/publications2.jpeg" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 10px black;" width="120px">
+                <p class="project-card-description " style="display:inline; font-size:14px; line-height: 1.8;">
+                  Book Chapter in <b><i>Nano Technology for Battery Recycling, Remanufacturing, and Reusing</i></b> <br>
+                  A Volume in Micro and Nano Technologies<br>
+                  Authors : Ashwani Pandey, <b> Sarthak Patnaik </b>, Dr. Soobhankar Pati
+                  <br>
+                  Section 1, Chapter 2, Elsevier,
+                  2022,
+                  Pages : 33-51,
+                  ISBN : 9780323911344
+                  <br>
+                  DOI:&nbsp;<a href="https://doi.org/10.1016/B978-0-323-91134-4.00020-0"
+                    style="color:#0043ff;">https://doi.org/10.1016/B978-0-323-91134-4.00020-0</a>
+
+                </p>
+              </div>
+              <div class="pdf-btn-container"><button class="pdf-btn"><a
+                    href="https://drive.google.com/file/d/1Dm2I4Mrl9XlUUx9yij3ujuSOonS2N-ZQ/view" target="_blank"
+                    style="color: black;">PDF</a></button></div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- Publications over  -->
+
+      <div class="projects-container">
+        <div class="heading" style="text-decoration: underline;">Patents</div>
+
+        <div class="patent-card-container">
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i>A Novel Process for Recycling of Lithium-ion Batteries</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/patents1.png" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 5px rgb(124, 124, 124);" width="120px">
+                <p class="project-card-description patent-card-description">
+                  Indian Patent Application Number : <b> 202031049971</b> (Published) <br>
+                  Date of Application : 17th November 2020 <br>
+                  <span> Inventors&nbsp;: <b> Sarthak&nbsp;Patnaik</b>, Gurudev&nbsp;Singh, Vinay&nbsp;Ahir,
+                    Yogesh&nbsp;Sarma&nbsp;Sedai,
+                    Ashwani&nbsp;Pandey, Dr.&nbsp;Soobhankar&nbsp;Pati </span>
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+          <!-- one over  -->
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i>Process for Lithium Recovery From Spent Lithium Iron Phosphate Lithium-ion Batteries</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/patents1.png" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 5px rgb(124, 124, 124);" width="120px">
+                <p class="project-card-description patent-card-description">
+                  Indian Patent Application Number : <b> 202321042255</b> (Filed) <br>
+                  Date of Application : 23th June 2023 <br>
+                  <span> Inventors&nbsp;: </span> <span> <b> Sarthak&nbsp;Patnaik</b>, Dr.&nbsp;Shobha&nbsp;Shukla,
+                    Dr.&nbsp;Sumit&nbsp;Saxena</span>
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+
+          <!-- second over  -->
+
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i>Process For Enrichment of Lithium Iron Phosphate
+                  Obtained from Spent Li-ion Batteries</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/patents1.png" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 5px rgb(124, 124, 124);" width="120px">
+                <p class="project-card-description patent-card-description">
+                  Indian Patent Application Number : <b> 202321054208</b> (Filed) <br>
+                  Date of Application : 12th August 2023 <br>
+                  <!-- <span style="display: flex; gap: 5px;"> -->
+                  <span> Inventors&nbsp;: </span> <span> <b> Sarthak&nbsp;Patnaik</b>, Dr.&nbsp;Shobha&nbsp;Shukla,
+                    Dr.&nbsp;Sumit&nbsp;Saxena</span>
+                  <!-- </span> -->
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+          <!-- third over  -->
+
+
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i>A Process for Synthesis of Sodium Iron Phosphate from Spent End of Life LFP Batteries</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/patents1.png" alt="gcdem" style="display:inline; 
+                box-shadow: 0px 0px 5px rgb(124, 124, 124);" width="120px">
+                <p class="project-card-description patent-card-description">
+                  Indian Patent Application Number : <b>202321062887</b> (Filed) <br>
+                  Date of Application : 19th September 2023 <br>
+                  <!-- <span style="display: flex; gap: 5px;"> -->
+                  <span> Inventors&nbsp;: </span> <span> <b> Sarthak&nbsp;Patnaik</b>, Dr.&nbsp;Shobha&nbsp;Shukla,
+                    Dr.&nbsp;Sumit&nbsp;Saxena</span>
+                  <!-- </span> -->
+                </p>
+              </div>
+              <!-- <div class="pdf-btn-container"><button class="pdf-btn"><a href="https://www.gcdem2023.com/" target="_blank"
+                  style="color: black;">LINK</a></button></div> -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="projects-container">
+        <div class="heading" style="text-decoration: underline;">Workshops</div>
+
+        <div class="patent-card-container">
+          <div class="patent-card" style="border: 0px ; box-shadow: 0px 0px 2px grey;">
+
+            <div class="patent-content">
+              <p class="project-card-heading" target="_blank"
+                style="color: black;  font-size: 20px; color:#0043ff; width: 100%;text-align: center;color:black;font-weight:700;">
+                <i>Battery Technology for Electric Vehicles</i>
+              </p>
+              <div class="patent-details">
+                <img src="images/workshop2.jpeg" alt="gcdem" style="display:inline; 
+              box-shadow: 0px 0px 5px rgb(124, 124, 124); aspect-ratio: 1/0.75; " width="120px">
+                <p class="project-card-description patent-card-description" style="text-align:center;">
+                  Was invited to attend a workshop on <b>Battery Technology for Electric Vehicles </b> organized by
+                  International Advanced Research Centre for Powder Metallurgy and New Materials<b> (ARCI)</b> and
+                  Energy&nbsp;Science&nbsp;Society&nbsp;of&nbsp;India <b>(ESSI)</b> <br> Date: 26th-28th December 2019
+                  <br>Venue: Indian Institute of Information Technology, Design and Manufacturing <b>(IIITDM)</b>,
+                  Kancheepuram,
+                  Chennai, India.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Publications Section Ends  -->
+
+    <!-- Experience Section starts  -->
+    <div id="experience" class="hi">
+      <div class="projects-container" style="margin-top: 0vh;">
+
+
+        <div class="experience-cont">
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/iitbbsr.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Project Associate</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><b><a href="https://www.iitbbs.ac.in/" target="_blank"
+                    style="color:blue;"> IIT Bhubaneshwar</a></b></span>
+              <i class="duration">Nov’23–Present</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Working
+                    on investigating the Integrity of the Iron Beams at<a href="https://whc.unesco.org/en/list/246/"
+                      style="color:blue;" target="_blank"> Konark Sun Temple</a></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Carried
+                    out electrochemical studies
+                    to evaluate corrosion behavior of 13<sup>th</sup> century Iron beams</span></li>
+                    <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>
+                      Project aims to gain insights into archeological corrosion enabling protection of monuments</span></li>
+                    
+
+
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/cellark.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Research Engineer</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><a href="https://cellark.in/" target="_blank"
+                  style="color:blue;">Cellark Powertech</a></span>
+              <i class="duration">Jul'23-Oct'23</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span> Leading a team of 3 researchers to establish novel routes for End of Life <b>Photo
+                      Voltaic (PV) Module Recycling</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span> Critical Material Recovery <b>(Glass, Si-Wafer, Connecting Nodes)</b> using sustainable
+                    <b>hydrometallurgical</b> routes</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span> EOL PV Modules being explored as a sustainable <b>source of Si</b> for potential
+                    electrodes for <b>high-capacity LiBs</b>
+                  </span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/iitbombay.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Teaching Assistant</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><a href="https://www.iitb.ac.in/" target="_blank"
+                  style="color:blue;">IIT Bombay</a></span>
+              <i class="duration">July’21-Jun'23</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Nominated as the <b>Master Teaching Assistant</b> for excellence in mentorship and
+                    training</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Coordinated with instructors and team of TAs for designing <b>Assignments</b>,
+                    <b>Tutorials</b>
+                    and <b>Exams</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Facilitated mentees by attending to their <b>Academic Queries</b> and clearing <b>Key
+                      Concepts</b> related to the assigned
+                    courses</span></li>
+
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/devtown.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Data Analyst Intern</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><a href="https://www.devtown.in/" target="_blank"
+                  style="color:blue;">Dev Town</a></span>
+              <i class="duration">May’21-Jul’21</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>The training involved learning about the fundamental concepts of <b>Machine Learning</b>
+                    and
+                    <b>Deep Learning</b>. </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Developed a capstone project titled "<b>Flight Fare Prediction</b>" using
+                    the <b>Random Forest</b> algorithm.</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Hyperparameter Tuning was done using <b>Randomized SearchCV</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Successfully Completed the program and was ranked
+                    in <b>Top 20</b> in the batch of <b>150</b> students</span></li>
+
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/liloop.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Research Associate</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><a href="https://liloop.in/" target="_blank"
+                  style="color:blue">Liloop </a> | <a href="https://cellark.in/" target="_blank"
+                  style="color:blue">Cellark </a> </span>
+              <i class="duration">Dec’20- May’21</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Conducted preliminary <b>Market Research</b> for 2-wheeler EV segment in Bhubaneswar
+                    region in
+                    Eastern
+                    India</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Actively contributed towards building <b>ML Algorithms</b> for <b>Repurposing</b> of
+                    <b>Li&#8209;ion Batteries</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Selected as one of the <b>Top-50</b> start-up ideas in India at
+                    <b>Together&nbsp;2021</b>, a venture contest
+                    organized by <b>Govt.&nbsp;of&nbsp;India</b> & <a href="https://schulich.yorku.ca/" target="_blank"
+                      style="color:blue;">Schulich School of Business</a>, <b>York University,
+                      Canada</b></span></li>
+
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/iitbbsr.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Research Intern</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><b><a href="https://www.iitbbs.ac.in/" target="_blank"
+                    style="color:blue;"> IIT Bhubaneshwar</a></b></span>
+              <i class="duration">Jun’20– Jul’20</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">• </span><span>Worked
+                    on theoretical understanding followed by data analysis of <b>Electrochemical Impedance Spectroscopy
+                      (EIS)</b></span></li>
+
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/iitbbsr.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Research Intern</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><b><a href="https://www.iitbbs.ac.in/" target="_blank"
+                    style="color:blue;"> IIT Bhubaneshwar</a></b></span>
+              <i class="duration">May’19–Jul’19</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Designed <b>Electro-less Deposition</b> techniques for developing cost-effective
+                    <b>Catalysts</b></span></li>
+              </ul>
+
+            </div>
+          </div>
+
+
+
+          <div class="experience-card">
+            <div class="company-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/iitbbsr.png" alt="" style="width: 100%; max-width: 200px;" />
+            </div>
+            <i class="job-role" style="text-align: center;">Soft Skill Intern</i>
+            <div class="company-duration">
+              <span class="company" style="font-weight:600;"><b><a href="https://www.iitbbs.ac.in/" target="_blank"
+                    style="color:blue;"> IIT Bhubaneshwar</a></b></span>
+              <i class="duration">Dec’20-Jan’21</i>
+            </div>
+
+            <div class="experience-details">
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span><b>Travel Writing</b> internship describing in first person details my travels to the
+                    mystic <b>Himalayan Kingdom of Bhutan</b></span></li>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- Experience section Ends  -->
+
+
+    <!-- Skills Section  -->
+    <div id="skills" class="hi">
+      <div class="projects-container" style="margin-top:0px;">
+        <div class="project-card-container" style="margin-top:0vh;">
+
+          <div class="project-card" style="border-radius:10px; box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">Programming Languages</div>
+              <!-- <p class="project-card-description">Mastering the languages of innovation, my expertise spans <b
+                  style="font-size:18px;"> <i> Python</i></b>, our
+                versatile problem solver; <b style="font-size:18px;"> <i>GNU Octave & MATLAB</i></b> , precision
+                instruments for scientific computing; and <b style="font-size:18px;"> <i> C
+                    programming</i></b>, the foundation of efficient systems. With a passion for innovation and an eye
+                for detail, I transform ideas into impactful solutions.
+              </p> -->
+              <div style="display:flex; flex-wrap:wrap; gap:30px; margin-top:1rem; justify-content: space-evenly;">
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/pyhton.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://www.python.org/about/" target="_blank">
+                      <b style="font-size:17px; color: black;">Python</b></a></div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Octave.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://octave.org/" target="_blank">
+                      <b style="font-size:17px; color: black;">GNU Octave</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Matlab.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://in.mathworks.com/products/matlab.html" target="_blank">
+                      <b style="font-size:17px; color: black;">MATLAB</b></a></div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/C.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">
+                      <b style="font-size:17px; color: black;">C Programming</b></a></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="project-card" style="border-radius:10px;box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">Analytical Software Packages</div>
+              <div style="display:flex; flex-wrap:wrap; gap:30px; margin-top:1rem; justify-content: space-evenly;">
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/HSC.jpeg" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://www.hsc-chemistry.com/" target="_blank">
+                      <b style="font-size:17px; color: black;">HSC Chemistry</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Comsol.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://www.comsol.com/comsol-multiphysics" target="_blank">
+                      <b style="font-size:17px; color: black;">COMSOL</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/ImageJ.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://imagej.nih.gov/ij/features.html" target="_blank">
+                      <b style="font-size:17px; color: black;">ImageJ</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Origin.png" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://www.originlab.com/origin" target="_blank">
+                      <b style="font-size:17px; color: black;">OriginPro</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Thermo-calc.jpeg"
+                      alt="logo-img">
+                  </div>
+
+                  <div class="point"><a href="https://thermocalc.com/" target="_blank">
+                      <b style="font-size:17px; color: black;">Thermo-Calc</b></a></div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Xpert.jpeg" alt="logo-img">
+                  </div>
+
+                  <div class="point"><a
+                      href="https://www.malvernpanalytical.com/en/products/category/software/x-ray-diffraction-software/highscore-with-plus-option"
+                      target="_blank">
+                      <b style="font-size:17px; color: black;">High Score</b></a></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="project-card" style="border-radius:10px;  box-shadow: 0px 0px 0px rgb(150, 149, 149);">
+
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">Technical Skills</div>
+              <div style="display:flex; flex-wrap:wrap; gap:30px; margin-top:1rem; justify-content: space-evenly;">
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/PFM.jpeg" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Phase Field <br> Modelling</b>
+                  </div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Electron.jpeg"
+                      alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Electron <br> Microscopy</b>
+                  </div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/XRD.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">X-Ray Diffraction</b>
+                  </div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/CV.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Cyclic Voltametry</b>
+                  </div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/EIS.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">EIS</b>
+                  </div>
+                </div>
+
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/XPS.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">XPS</b>
+                  </div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/FTIR.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">FTIR</b>
+                  </div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/Raman.png" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Raman<br>Spectroscopy</b>
+                  </div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/cellfab.jpeg"
+                      alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Cell Fabricating</b>
+                  </div>
+                </div>
+
+                <div class="card1" style="padding-top:10px;min-width:180px;display: flex; flex-direction:column;justify-content:space-between; align-items:center;  
+                box-shadow: 0px 0px 10px rgb(150, 149, 149); border-radius:15px;">
+                  <div
+                    style="min-width:150px; aspect-ratio:1/1;display: flex; justify-content:center;align-items:center">
+                    <img style="width:100%; max-width:120px;aspect-ratio:1/1; " src="images/cell.jpeg" alt="logo-img">
+                  </div>
+
+                  <div style="text-align:center;">
+                    <b style="font-size:17px; color: black;text-align:center;">Cell Testing</b>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Skills Section Ends  -->
+
+
+    <!-- Achievement Section  Starts  -->
+    <div id="achievements" class="hi">
+      <div class="achievements-section">
+
+        <div class="achievements-container" style="flex-direction:row; margin-top:8vh;">
+
+          <div class="achievements-card">
+            Achieved <b>1<sup>st</sup></b> rank in the <b>Material Science</b> specialization and the
+            <b>2<sup>nd</sup></b> rank in the department in the Master's Program&nbsp;&nbsp;<b><i>[2023]</i></b>
+          </div>
+          <div class="achievements-card">
+            Secured <b>10/10 SGPA</b> in Final Semester of Bachelors <b><i>[2021]</i></b> & Final Year of
+            Masters&nbsp;&nbsp;<b><i>[2023]</i></b>
+
+          </div>
+          <div class="achievements-card">
+            Received a <b>Direct Academic Qualification</b> to pursue a <b>Master's Degree</b> in <b>Material
+              Science</b> at <a href="https://www.iitb.ac.in/" target="_blank" style="color:black;">Indian Institute of
+              Technology, Bombay</a> <b>(IITB)</b>&nbsp;&nbsp;<b><i>[2021]</i></b>
+          </div>
+          <div class="achievements-card">
+            <a href="https://www.dailypioneer.com/2020/state-editions/iit-bbs-students-1st-in-smart-hackathon.html"
+              target="_blank" style="color:black;"> Winner of <b>National LiB Recycling Hackathon</b></a> organized by
+            Energy Science Society of India (<b>ESSI</b>)
+            at <b>IIITDM</b>, Kancheepuram, Chennai, India.</b>&nbsp;&nbsp;<b><i>[2019]</i></b>
+          </div>
+          <div class="achievements-card">
+            Achieved a world ranking of <b>17<sup>th</sup></b> in the <b>Under-20</b> category and <b>1718</b> in the
+            Open category at the <a href="https://www.worldquizzing.com/" target="_blank"
+              style="color:black;font-weight:700;">World Quizzing Championship</a>&nbsp;&nbsp;<b><i>[2018]</i></b>
+          </div>
+          <div class="achievements-card">
+            Qualified to <b>Indian Institute of Technology</b> (acceptance rate ~<b>0.5%</b>) and pursued Bachelor's
+            degree in <b>Metallurgical Engineering and Material Science</b> from <b><a href="https://www.iitbbs.ac.in/"
+                target="_blank" style="color:black;"> IIT Bhubaneshwar</a></b>&nbsp;&nbsp;
+            <b><i>[2017]</i></b>
+          </div>
+          <div class="achievements-card">
+            Qualified to the <b>National Finals</b> of Prof. Brahm Prakash Memorial <b>Materials and Metallurgy
+              Quiz</b> organized by <b><a href="http://iim-kalpakkam.in/" style="color:black;" target="_blank">IIM
+                Kalpakkam</a></b>&nbsp;&nbsp; <b><i>[2016]</i></b>
+          </div>
+          <div class="achievements-card">
+            Successfully completed <b>COP+24</b> International <b>Climate Change</b> Course &nbsp;&nbsp;<b>
+              <i>[2018]</i></b>
+          </div>
+          <div class="achievements-card">
+            <b>NTSE</b> (National&nbsp;Talent&nbsp;Search&nbsp;Examination) Scholarship by Govt of
+            India&nbsp;&nbsp;<b><i>[2015]</i></b>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Achievement Section Ends  -->
+
+    <!-- More Section starts  -->
+
+
+    <!-- Extra-Curriculars Section  Starts -->
+    <div id="extra-curriculars" class="hi">
+      <div class="projects-container">
+        <!-- <div class="heading" style="margin:0px; padding:0px;">
+          Extra-Curriculars
+        </div> -->
+        <div class="project-card-container">
+
+          <!-- <div class="project-card" style="border-radius:10px;">
+            <div class="project-content">
+              <p class="project-card-description">
+              <ul>
+                <li style="font-size:20px;"><b style="font-size:20px;" ><i>• Travelling</i></b> (20 countries and counting)</li> 
+                <li style="font-size:20px;"><b
+                  style="font-size:20px;"><i>• Western Music, Adventure Sports, Wildlife Photography, Quizzing</i></b></li>
+                <li style="font-size:20px;"><b style="font-size:20px;"><i>• </i></b><b style="font-size:20px;"><i> Sports Enthusiast,
+                      Motivational Speaker,</i></b> Experimenting different <b style="font-size:20px;"><i>National and
+                      International Cuisines</i></b> </li>
+              </ul>
+              </p>
+            </div>
+          </div> -->
+
+          <div class="achievements-container" style="flex-direction:row; ">
+
+            <div class="achievements-card">
+              <b>Travelling&nbsp;&nbsp;</b><i>(20 Countries and Counting!)</i>
+            </div>
+            <div class="achievements-card"><b>
+                Western Music</b>
+
+            </div>
+            <div class="achievements-card"><b>
+                Adventure Sports
+              </b>
+            </div>
+            <div class="achievements-card">
+              <b>Wildlife Photography</b>
+            </div>
+            <div class="achievements-card">
+              <b>Quizzing</b>
+            </div>
+            <div class="achievements-card"> <b>Motivational Speaking</b>
+            </div>
+            <div class="achievements-card"><b>Sports Enthusiast</b>
+            </div>
+            <div class="achievements-card">
+              <b>Taking a Culinary Voyage</b>
+            </div>
+
+          </div>
+
+          <div class="heading" style="margin:0px; padding:0px; text-align: center; margin-top: 2rem;">
+            The World Through My Lens
+          </div>
+
+
+
+          <div id="gallery" class="container-fluid" style="margin-top: 1rem;">
+            <img src="images/Wildlife1.jpeg" class="img-responsive">
+            <img src="images/extra2.jpeg" class="img-responsive">
+            <img src="images/extra3.jpeg" class="img-responsive">
+            <!-- <video class="vid" controls>
+              <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+                type="video/mp4">
+              </source>
+            </video> -->
+            <img src="images/extra4.jpeg" class="img-responsive">
+            <img src="images/extra5.jpeg" class="img-responsive">
+            <img src="images/extra6.jpeg" class="img-responsive">
+            <img src="images/extra7.jpeg" class="card img-responsive">
+            <img src="images/extra8.jpeg" class="img-responsive">
+            <img src="images/extra9.jpeg" class="img-responsive">
+            <img src="images/extra10.jpeg" class="img-responsive">
+            <img src="images/extra11.jpeg" class="img-responsive">
+            <img src="images/extra12.jpeg" class="img-responsive">
+            <img src="images/extra13.jpeg" class="img-responsive">
+            <img src="images/extra14.jpeg" class="img-responsive">
+            <img src="images/extra15.jpeg" class="img-responsive">
+
+
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+    <!-- Extra-Curriculars Section Ends  -->
+
+    <!-- Resposibilities Section starts  -->
+    <div id="resposibilities" class="hi">
+      <div class="projects-container">
+        <!-- <div class="theme-img">
+          <img
+            src="https://static.wixstatic.com/media/d6ef9a_2a9e1e3589f143159ad8e71b2653c2e9~mv2.png/v1/fill/w_904,h_464,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-08-04%20at%201_19_25%20PM.png"
+            alt="theme-img" class="them-img">
+        </div> -->
+
+
+
+        <div class="experience-cont">
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/nsslogo.jpeg" alt="" style="width: 80%;border-radius:50rem; 
+              box-shadow: 0px 0px 15px rgb(150, 149, 149);" />
+            </div>
+
+
+            <div class="experience-details">
+              <div class="job-role" style="text-align:center;"><i>VOLUNTEER | NATIONAL SERVICE SCHEME | IIT
+                  BHUBANESWAR</i>
+              </div>
+              <div style="text-align:center; font-weight:500;">Jul’17-Jul’18</div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Responsible for <b>teaching</b> underprivileged students at 6 local schools with 180
+                    students weekly </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Set up 5 local <b>school science labs</b> </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Organized <b>cleanliness drives</b> both in the local schools and inside the IIT
+                    campus</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Organized <b>education and financial awareness</b> campaigns in nearby villages with
+                    attendance of
+                    200 visitors</span></li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/quiz_club.jpg" alt="logo" style="width: 80%; border-radius:50rem; 
+              box-shadow: 0px 0px 15px rgb(150, 149, 149);" />
+            </div>
+
+
+            <div class="experience-details" style="margin-top:1rem;">
+              <div class="job-role" style="text-align:center;"><i>SECRETARY/ GOVERNOR | QUIZ CLUB | IIT BHUBANESWAR</i>
+              </div>
+              <div style="text-align:center; font-weight:500;">Jul’17-May’21</div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Responsible for organizing online and offline <b>quiz competitions</b> at IIT
+                    Bhubaneswar</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Managed <b>social media</b> engagements</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Actively contributed towards the aspects of <b>inductions, budgeting</b> and
+                    <b>financial</b>
+                    accounting</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/panacea.jpg" alt="logo" style="width: 80%; border-radius:50rem; 
+              box-shadow: 0px 0px 15px rgb(150, 149, 149);" />
+            </div>
+
+
+            <div class="experience-details" style="margin-top:1rem;">
+              <div class="job-role" style="text-align:center;"><i>MEMBER | PANACEA | LITERARY SOCIETY | IIT
+                  BHUBANESWAR</i>
+              </div>
+              <div style="text-align:center; font-weight:500;">Apr’19-May’21</div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Actively contributed to the society by submitting <b>literary works</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Part of the <b>Organizing Committee</b> of the IITBBS <b>Model United Nations</b>
+                    in 2019</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>This engaging experience involved coordinating with over 300+ delegates, fostering
+                    collaboration
+                    and diplomacy</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/bookclub.jpeg" alt="logo" style="width: 80%; border-radius:1rem; 
+              box-shadow: 0px 0px 15px rgb(150, 149, 149);" />
+            </div>
+
+
+            <div class="experience-details" style="margin-top:1rem;">
+              <div class="job-role" style="text-align:center;"><i>FOUNDER | LIBEROCLAVA | BOOK CLUB | IIT
+                  BHUBANESWAR</i></div>
+              <div style="text-align:center; font-weight:500;">Jul’20-May’21</div>
+              <ul>
+
+
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>During the challenging COVID lockdown period, I took the initiative to start a Book Club
+                    with my batchmates</span></li>
+
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>This involved engaging with fellow enthusiasts, <b>sharing
+                      literary insights,</b> and fostering a sense of community through thoughtful dialogue about
+                    various
+                    books and authors</span></li>
+              </ul>
+
+
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/healthmission.png" alt="logo" style="width: 80%;  " />
+            </div>
+
+
+            <div class="experience-details" style="margin-top:1rem;">
+              <div class="job-role" style="text-align:center;"><i>VOLUNTEER |NATIONAL HEALTH MISSION & FAMILY WELFARE
+                  DEPT
+                  |GOVT OF ODISHA</i></div>
+              <div style="text-align:center; font-weight:500;">Jul’20-May’21</div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Provided assistance in <b>counseling</b> Leprosy patients, playing a crucial role in
+                    guiding them
+                    through the process of both <b>initiating and continuing treatment</b></span></li>
+
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>This involved offering emotional support, explaining treatment regimens, and ensuring
+                    they
+                    remained committed to their healthcare journey</span></li>
+
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="experience-card">
+            <div class="company-img"
+              style="background:white; display:flex; justify-content:center; align-items:center;">
+              <img src="images/couch.jpeg" alt="logo" style="width: 80%; border-radius: 1rem; " />
+            </div>
+
+
+            <div class="experience-details" style="margin-top:1rem;">
+              <div class="job-role" style="text-align:center;"> <a
+                  href="https://open.spotify.com/show/6vjoDSLZ5EIjWrDnlMr8Ol?si=wcmBFFx1RTyTN6u4yQDDgg&nd=1"
+                  target="_blank" style="color:black; text-decoration:none;">
+                  <i>FOUNDER AND PANELIST | COUCH CHRONICLES | IIT BHUBANESWAR</i></a>
+              </div>
+              <div style="text-align:center; font-weight:500;">2020</div>
+              <ul>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>I founded and actively participated as a <b>panelist</b> on Couch Chronicles, a
+                    captivating Spotify audio podcast hosted at IIT Bhubaneswar</span></li>
+
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>In this role, I
+                    contributed to engaging <b>discussions and interviews</b>,
+                    providing a platform for thought-provoking conversations</span></li>
+              </ul>
+              <div style="text-align: center;"><a
+                  href="https://open.spotify.com/show/6vjoDSLZ5EIjWrDnlMr8Ol?si=wcmBFFx1RTyTN6u4yQDDgg&nd=1"
+                  target="_blank" style="color:black; text-decoration:none;"><img src="images/spotify.jpeg" alt="logo"
+                    style="width: 30px; border-radius: 50rem; border: 1px solid black; padding:3px;"></a></div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+    <!-- </div> -->
+    <!-- Resposibilities Section ends  -->
+
+
+    <!-- Certificates Section Starts  -->
+    <div id="certificates" class="hi" style="margin-top:1rem ;">
+      <div style="display: flex; flex-direction:column;">
+        <!-- <div class="heading" style="text-align: center; width:98%;">Certifications</div> -->
+        <div class="certificate-container">
+
+          <div class="certificate-card">
+            <img src="images/COP.jpeg" alt="certificate" style="width:100% ;">
+            <div class="certificate-heading" style="text-align: center; font-weight: 600; font-size: 24px;">
+              COP+24 International Climate Change Program </div>
+            <!-- <div class="certificate-details">An opportunity through which I was able to participate
+              in the negotiations, attend the high-level dialogues, and network with other stakeholders from around the
+              world. The experience was incredibly inspiring and motivating, and it strengthened my commitment to
+              working on climate change.</div> -->
+            <a href="https://drive.google.com/file/d/10skXrt93UgBpUDH7TMdb_zSiSYrYOJOU/view?usp=sharing"
+              target="_blank"><button class="show-credentials">Show</button></a>
+          </div>
+
+          <div class="certificate-card">
+            <img src="images/DL.jpeg" alt="certificate" style="width:100% ;">
+            <div class="certificate-heading" style="text-align: center; font-weight: 600; font-size: 24px;">Deep
+              Learning A-Z<sup style="font-size:14px;">TM</sup>: Hands-On Python & R in Data Science</div>
+            <!-- <div class="certificate-details">A comprehensive course that taught me the fundamentals of deep learning,
+              using both Python and R. I learned about different types of deep learning models, how to train and
+              evaluate them, and how to apply them to real-world problems. The course included a variety of hands-on
+              exercises and projects, so I gained practical experience in building and deploying deep learning models
+            </div> -->
+            <a href="https://drive.google.com/file/d/1SGbHN1XJbwa8ZH6_RmfULG4l8ypNwH1d/view?usp=sharing"
+              target="_blank"><button class="show-credentials">Show</button></a>
+          </div>
+
+          <div class="certificate-card">
+            <img src="images/ML.jpeg" alt="certificate" style="width:100% ;">
+            <div class="certificate-heading" style="text-align: center; font-weight: 600; font-size: 24px;">Machine
+              Learning A-Z<sup style="font-size:14px;">TM</sup>: Hands-On Python & R in Data Science</div>
+            <!-- <div class="certificate-details">A Udemy course on Machine Learning A-ZTM: Hands-On Python & R in Data
+              Science, I learned the fundamentals of machine learning, using Python and R. I trained and evaluated
+              different models, and applied them to real-world problems. Hands-on exercises and projects gave me
+              practical experience in building and deploying machine learning models.</div> -->
+            <a href="https://drive.google.com/file/d/1mZqgzfWr07F1rL_N4Q_fiOVKl62F38cg/view?usp=sharing"
+              target="_blank"><button class="show-credentials">Show</button></a>
+          </div>
+
+          <div class="certificate-card">
+            <img src="images/MATLAB.jpeg" alt="certificate" style="width:100% ;">
+            <div class="certificate-heading" style="text-align: center; font-weight: 600; font-size: 24px;">
+              Good MATLAB Programmer in 30 Days</div>
+            <!-- <div class="certificate-details">This Udemy course provided me with a comprehensive overview of the MATLAB
+              programming language, covering topics such as variables, data types, functions, scripts, matrices,
+              vectors, plotting, and more. I also learned how to use MATLAB for data analysis, machine learning, and
+              other applications. Through hands-on exercises and projects, I gained the skills and knowledge necessary
+              to become a proficient MATLAB programmer</div> -->
+            <a href="https://drive.google.com/file/d/19RAsDqlmIiRsWCpczM4PuA_5vqTg6MQG/view?usp=sharing"
+              target="_blank"><button class="show-credentials">Show</button></a>
+          </div>
+
+          <div class="certificate-card">
+            <img src="images/ICTKP.png" alt="certificate" style="width:100% ;">
+            <div class="certificate-heading" style="text-align: center; font-weight: 600; font-size: 24px;">IIT Kanpur
+              Advanced Certification in AI & Machine Learning</div>
+            <!-- <div class="certificate-details">This comprehensive course provided me with a deep understanding of the
+              Python programming language, as well as the Keras, Tensorflow, and SQL libraries. Through hands-on
+              experience with 10 industry-level projects, I was able to learn how to apply these skills to solve
+              real-world problems in a variety of domains.
+            </div> -->
+            <a href="https://edvancer.in/course/iitk-ai-course-main/#curriculum_download_26838" target="_blank"><button
+                class="show-credentials">Show</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Certificates Section Ends  -->
+
+    <!-- Key Courses Section Starts  -->
+    <div id="key-courses" class="hi">
+      <div class="projects-container" style="display: flex; flex-direction:column;">
+        <div class="heading">Master of Technology (IIT Bombay)</div>
+        <table>
+          <thead style="font-size: 20px;">
+            <th>Course Code</th>
+            <th>Course Name</th>
+          </thead>
+
+          <tr>
+            <td>MM 417</td>
+            <td>Entrepreneurship in Materials Engineering</td>
+          </tr>
+          <tr>
+            <td>MM 674</td>
+            <td>Materials & Processes for Semiconductor Devices</td>
+          </tr>
+          <tr>
+            <td>MM 677</td>
+            <td>Diffusion Kinetics</td>
+          </tr>
+          <tr>
+            <td>MM 718</td>
+            <td>Laser Processing and Nanistructures</td>
+          </tr>
+
+          <tr>
+            <td>MM 651</td>
+            <td>Thermodynamics of Materials</td>
+          </tr>
+          <tr>
+            <td>MM 695</td>
+            <td>High Temperature Corrosion</td>
+          </tr>
+          <tr>
+            <td>MM 731</td>
+            <td>Experiments in Advanced Materials Processing</td>
+          </tr>
+          <tr>
+            <td>MM 732</td>
+            <td>Structural Characterization of Materials</td>
+          </tr>
+          <tr>
+            <td>MM 733</td>
+            <td>Mechanical Characterization of Materials</td>
+          </tr>
+          <tr>
+            <td>MM 737</td>
+            <td>Physical Metallurgy</td>
+          </tr>
+          <tr>
+            <td>MM 738</td>
+            <td>Physics of Materials</td>
+          </tr>
+          <tr>
+            <td>ES 655</td>
+            <td>Environmental Management</td>
+          </tr>
+
+
+          <tr>
+            <td>MM 899</td>
+            <td>Communication Skills</td>
+          </tr>
+
+        </table>
+
+        <div class="projects-container" style="display: flex; flex-direction:column;">
+          <div class="heading">Bachelor of Technology (IIT Bhubaneswar)</div>
+          <table>
+            <thead style="font-size: 20px;">
+              <th>Course Code</th>
+              <th>Course Name</th>
+            </thead>
+
+
+            <tr>
+              <td>MA2L007</td>
+              <td>Numerical Methods</td>
+            </tr>
+
+            <tr>
+              <td>ML2L002</td>
+              <td>Thermodynamics of Materials</td>
+            </tr>
+
+            <tr>
+              <td>ID2L003</td>
+              <td>Environmeental Science, Technology and Management</td>
+            </tr>
+            <tr>
+              <td>ML2L003</td>
+              <td>Materials Processing</td>
+            </tr>
+
+            <tr>
+              <td>ML2L005</td>
+              <td>Physical Metallurgy</td>
+            </tr>
+            <tr>
+              <td>ML2L004</td>
+              <td>Transport Phenomena and Kinetics of Metallurgical Processes</td>
+            </tr>
+            <tr>
+              <td>ML3L005</td>
+              <td>Chemical Metallurgy</td>
+            </tr>
+            <tr>
+              <td>ML3L002</td>
+              <td>Corrosion and Surface Engineering</td>
+            </tr>
+            <tr>
+              <td>ML3L003</td>
+              <td>Mechanical Properties and Testing of Materials</td>
+            </tr>
+            <tr>
+              <td>ML3L001</td>
+              <td>Mineral Processing</td>
+            </tr>
+            <tr>
+              <td>ML3L008</td>
+              <td>Deformation And Mechanical Working of Materials</td>
+            </tr>
+            <tr>
+              <td>ML3L009</td>
+              <td>Introduction to Simulation and Modeling of Materials</td>
+            </tr>
+
+
+            <tr>
+              <td>ML4L002</td>
+              <td>Elements of Electroceramics</td>
+            </tr>
+            <tr>
+              <td>ML4L001</td>
+              <td>Light Metals and Alloys</td>
+            </tr>
+
+            <tr>
+              <td>ML4L003</td>
+              <td>Polymers And Nanocomposites</td>
+            </tr>
+            <tr>
+              <td>ML4P002</td>
+              <td>Process Control and Instrumentation Laboratory</td>
+            </tr>
+            <tr>
+              <td>ML6L036</td>
+              <td>Advanced Electrochemical Methods</td>
+            </tr>
+            <tr>
+              <td>ML6L014</td>
+              <td>Powder Materials and Processing</td>
+            </tr>
+            <tr>
+              <td>ML6L012</td>
+              <td>Biomaterials Processing and Applications</td>
+            </tr>
+            <tr>
+              <td>ML6L002</td>
+              <td>Solidification of Metals and Alloys</td>
+            </tr>
+
+            <tr>
+              <td>HS4L006</td>
+              <td>Global Communication</td>
+            </tr>
+
+            <tr>
+              <td>HS3L002</td>
+              <td>Environomics</td>
+            </tr>
+            <tr>
+              <td>ID2L003</td>
+              <td>Environmental Scienece, Tehcnology and Management</td>
+            </tr>
+
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <!-- Key Courses Section Ends  -->
+    <!-- Certificates Section Starts  -->
+    <div id="course-project" class="hi">
+      <div class="projects-container">
+
+        <div class="project-card-container" style="margin-top:0vh;">
+
+          <div class="project-card" style="border-radius:10px;box-shadow: 0px 0px 0px black;">
+            <div class="project-card-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/Laser.jpeg" alt="phto" class="project-card-img"
+                style="box-shadow: 0px 0px 5px grey; padding: 0;aspect-ratio: 1/1; max-height: 200px;max-width:200px;">
+            </div>
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">
+                <div style="text-align: left;">
+                  LASER System to Mitigate Elephant Train
+                  Accidents </div><span style="opacity:0.7; font-weight: 600; font-size:18px;"> Laser Processing and
+                  Nanostructures (MM 718)<br>
+                  <i style="font-size:16px;"> <a href="https://www.iitb.ac.in/mems/en/prof-s-shukla" target="_blank"
+                      style="color:blue;"> Prof. Shobha Shukla</a>, Indian Institute of
+                    Technology Bombay</i></span>
+              </div>
+              <p class="project-card-description">
+              <ul style="font-family:sans-serif;">
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Laser Based Fencing System </i></b>for detecting elephant intrusions
+                    into railway tracks </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span></b>Classification of Elephant intrusions using<b style="font-size:18px;"><i> Shapelet
+                        Based Classifier</i></b> was proposed </span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span><b style="font-size:18px;"><i>Cost Analysis</i></b> of the system was carried out,
+                    incorporating
+                    both the <b style="font-size:18px;"><i> One Time </i></b>and <b
+                      style="font-size:18px;"><i>Operational</i></b>
+                    cost.</span></li>
+
+              </ul>
+              </p>
+            </div>
+          </div>
+
+
+          <div class="project-card" style="border-radius:10px;box-shadow: 0px 0px 0px black;">
+            <div class="project-card-img" style="display: flex; justify-content: center; align-items: center;">
+              <img src="images/revenue.jpeg" alt="phto" class="project-card-img"
+                style="box-shadow: 0px 0px 5px grey; padding: 0;aspect-ratio: 1/1; max-height: 200px;max-width:200px;">
+            </div>
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">
+                <div style="text-align: left; ">Revenue Modelling for LiB
+                  Remanufacturing&nbsp;&&nbsp;Recycling </div> <span
+                  style="opacity:0.7; font-weight: 600; font-size:18px;">Entrepreneurship in Materials Engineering (MM
+                  417)<br>
+                  <i style="font-size:16px;"> <a href="https://www.iitb.ac.in/mems/en/prof-n-venkataramani"
+                      style="color:blue;">Prof. N. Venkataramani</a> , Indian Institute of
+                    Technology Bombay</i></span>
+              </div>
+              <p class="project-card-description">
+              <ul style="font-family:sans-serif;">
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span><span>Developing a preliminary<b style="font-size:18px;"><i>
+                          Revenue model for Remanufacturing and Recycling</i></b> of Li-ion batteries</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Aspects of <b>Revenue Analysis</b> and <b>Capital
+                      Analysis</b> were incorporated</span></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card" style="border-radius:10px;box-shadow: 0px 0px 0px black;">
+
+            <div class="project-card-img"
+              style="display: flex; justify-content: center; align-items: center; overflow: hidden;">
+              <img src="images/solar_.jpeg" alt="phto" class="project-card-img"
+                style="box-shadow: 0px 0px 5px grey; padding: 0; aspect-ratio: 1/1; max-height: 200px;max-width:200px;">
+            </div>
+            <div class="project-content">
+              <div class="project-card-heading" style="font-weight:600;">
+                <div style="text-align: left; ">Characteristics of Solar Cell: Virtual Experiment
+                </div> <span style="opacity:0.7; font-weight: 600; font-size:18px;">Materials Characterization
+                  Laboratory - II (ML4P001)<br>
+                  <i style="font-size:16px;"><a href="https://www.iitbbs.ac.in/profile.php/amritendu/" target="_blank"
+                      style="color:blue;">Prof. Amritendu Roy</a>, Indian Institute of
+                    Technology Bhubaneswar</i></span>
+              </div>
+              <p class="project-card-description">
+              <ul style="font-family:sans-serif;">
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Aspects of <b>Revenue Analysis</b> and <b>Capital
+                      Analysis</b> were incorporated</span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Functionality to modify <b>Material Type, Intensity of
+                      Light, Input Voltage, Input Current and Resistance</b></span></li>
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Model Generated output used to determine <b>Efficiency,
+                      Characterisitics like : I-V, Illumination, Power Load, Areal and Spectral</b></span></li>
+
+
+
+                <li style="display:flex; gap:10px;"><span style="font-weight:900;font-size:18px;">•
+                  </span><span>Model compatible with Windows & Linux and was deployed on<b>
+                      20 </b>lab computers</span></li>
+              </ul>
+              </p>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Certificates Section Ends  -->
+
+    <!-- More section Ends  -->
+
+
+    <!-- Contact Me section starts  -->
+    <div id="contactme" class="hi">
+      <div class="" style="display:flex; flex-direction:column;">
+        <div class="contactme-container">
+          <div class="contact-image-container">
+            <img src="images/contact-photo.png" alt="contact-img" class="contact-image">
+          </div>
+          <div class="contact-details">
+            <div style="color: rgb(52 43 43 / 72%);color:black; padding-bottom: 0;"> <span style=" display: block;"
+                class="heading">
+                Sarthak Patnaik </span>
+              <a style="font-size:20px; padding-left: 10px;" href="mailto:sp56@iitbbs.ac.in">
+                Email
+              </a> <span style="font-size:24px;">|</span><a style="font-size:20px; padding:0px 5px; width
+          :100%; color:#0000EE;" href="https://www.linkedin.com/in/sarthakpat/" target="_blank">Linkedin</a><span
+                style="font-size:24px;">|</span>
+              <a style="font-size:20px; padding-left: 5px; width
+          :100%; color:#0000EE;"
+                href="https://drive.google.com/file/d/1-sf5LF6EfKq-IznGEB7Cl4vsv3cUgfmH/view?usp=sharing"
+                target="_blank">Resume</a>
+
+            </div>
+            <p class="about-me">I am a researcher in sustainable engineering and a material scientist. My research
+              interests include <b>Li-ion battery recycling</b> and <b>solar panel recycling</b>, battery repurposing and the
+              development of cost-effective fuel cell technology. I have a strong interest in pursuing a PhD position in
+              the field of <b>sustainable engineering</b>.
+            </p>
+
+            <p class="about-me"> I am passionate about developing innovative and sustainable solutions in the
+              <b>renewable energy</b> domain. If you are interested in discussing my qualifications for a <b>PhD</b>
+              position in
+              <b>sustainable engineering</b> or <b>materials science</b>, please feel free to reach out to me using the
+              form below. I
+              am also happy to answer any questions about my research.
+            </p>
+
+
+            <ul class="id-links">
+
+              <div class="id-icons">
+                <a href="https://orcid.org/0009-0000-1758-6835" target="_blank" style="width
+            :100%;"><svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 512 512">
+                    <path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 
+            83.12-76.91 0-41.64-26.54-76.9-84.67-76.9zM256 8C119 8 8 119 
+            8 256s111 248 248 248 248-111 248-248S393 8 256 8zm-80.79 
+            360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 
+            1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57zM300 
+            369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 
+            368.38 369 300 369z" />
+                  </svg></a>
+              </div>
+              <div class="id-icons">
+                <a href="https://www.linkedin.com/in/sarthakpat/" target="_blank" style="width
+            :100%;"><svg xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 448 512">
+                    <style>
+                      svg {
+                        fill: #5a6372
+                      }
+                    </style>
+                    <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 
+            31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 
+            416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 
+            96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 
+            38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 
+            27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 
+            62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                  </svg></a>
+              </div>
+              <div class="id-icons">
+                <a href="https://drive.google.com/file/d/1-sf5LF6EfKq-IznGEB7Cl4vsv3cUgfmH/view?usp=sharing"
+                  target="_blank">
+
+                  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" height="2rem" viewBox="0 0 50.000000 50.000000"
+                    preserveAspectRatio="xMidYMid meet">
+
+                    <g transform="translate(0.000000,50.000000) scale(0.100000,-0.100000)" stroke="none">
+                      <path d="M160 423 l0 -58 44 -18 c31 -13 47 -27 54 -45 11 -33 0 -125 -18
+                -146 -15 -19 -17 -18 38 -45 24 -12 45 -28 49 -36 4 -11 24 -15 79 -15 l74 0
+                0 158 0 158 -53 52 -53 52 -107 0 -107 0 0 -57z m255 -13 l39 -40 -42 0 -42 0
+                0 40 c0 22 1 40 3 40 2 0 21 -18 42 -40z" />
+                      <path d="M122 323 c-29 -25 -32 -105 -7 -155 46 -94 125 -39 125 87 0 50 -2
+                56 -30 70 -38 20 -63 19 -88 -2z" />
+                      <path d="M83 99 c-39 -16 -63 -43 -63 -68 0 -7 25 -11 64 -11 63 0 64 0 70 31
+                9 44 8 47 -11 57 -12 7 -31 4 -60 -9z" />
+                      <path d="M195 106 c-13 -9 -15 -20 -10 -49 l7 -37 64 0 c48 0 64 3 64 14 0 40
+                -94 95 -125 72z" />
+                    </g>
+                  </svg>
+                </a>
+              </div>
+              <div class="id-icons">
+                <a href="mailto:sp56@iitbbs.ac.in">
+                  <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                  </svg>
+                </a>
+              </div>
+              <div class="id-icons">
+                <a href="https://scholar.google.co.in/citations?user=j-zPTm0AAAAJ&hl=en&authuser=1" target="_blank"
+                  style="width
+            :100%;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="2rem">
+                    <path
+                      d="M 25 3 C 12.85 3 3 12.85 3 25 C 3 37.15 12.85 47 25 47 C 37.15 47 47 37.15 47 25 C 47 12.85 37.15 3 25 3 z M 21 11 L 38 11 L 36.980469 11.880859 C 36.980469 11.920859 37 11.96 37 12 L 37 17.279297 C 37.6 17.619297 38 18.26 38 19 L 38 25 C 38 26.1 37.1 27 36 27 C 34.9 27 34 26.1 34 25 L 34 19 C 34 18.26 34.4 17.619297 35 17.279297 L 35 13.570312 L 31.410156 16.650391 C 31.760156 17.350391 32 18.200234 32 19.240234 C 32 21.960234 30.480703 23.309766 28.970703 24.509766 C 28.500703 24.989766 27.949219 25.510312 27.949219 26.320312 C 27.949219 27.120313 28.500391 27.570625 28.900391 27.890625 L 30.189453 28.919922 C 31.779453 30.279922 33.220703 31.530547 33.220703 34.060547 C 33.220703 37.510547 29.930469 41 23.730469 41 C 18.500469 41 15.980469 38.47 15.980469 35.75 C 15.980469 34.43 16.629766 32.559531 18.759766 31.269531 C 20.989766 29.879531 24.020391 29.690078 25.650391 29.580078 C 25.140391 28.920078 24.560547 28.230078 24.560547 27.080078 C 24.560547 26.470078 24.749687 26.100391 24.929688 25.650391 C 24.529688 25.690391 24.129531 25.730469 23.769531 25.730469 C 19.969531 25.730469 17.799297 22.85 17.779297 20 L 11 20 L 21 11 z M 24.269531 14.240234 C 23.339531 14.240234 22.33 14.710938 21.75 15.460938 C 21.14 16.220938 20.949219 17.210156 20.949219 18.160156 C 20.949219 20.620156 22.370938 24.699219 25.460938 24.699219 C 26.370938 24.699219 27.339922 24.259922 27.919922 23.669922 C 28.739922 22.819922 28.820312 21.65 28.820312 21 C 28.820312 18.35 27.269531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 25.719062 30.609375 23.769766 30.679219 22.259766 31.199219 C 21.459766 31.499219 19.160156 32.370469 19.160156 34.980469 C 19.160156 37.590469 21.64 39.460938 25.5 39.460938 C 28.97 39.460938 30.800781 37.760234 30.800781 35.490234 C 30.800781 33.620234 29.620859 32.630391 26.880859 30.650391 C 26.590859 30.610391 26.409063 30.609375 26.039062 30.609375 z" />
+                  </svg></a>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <!-- CONTACT FORM -->
+        <!-- <form class="contactform" action="mailto:sankarshanmishra102017@gmail.com" method="get" autocomplete="on"> -->
+        <!-- <input type="text" class="inputfield" placeholder="Your Name" name="Name" required>
+          <input type="email" class="inputfield" placeholder="Your Email" name="email" required>
+          <input type="text" class="inputfield" placeholder="Subject" name="subject" required>
+          <textarea class="inputfield" rows="4" placeholder="Message" name="body" required></textarea>
+          <button type="submit" class="send_message">Send Message</button> -->
+
+
+        <iframe style="margin-top:1rem;"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe3pj6ZHjrxKJtLLIA0puhHUm2hwdtJA9Ocaclqf5QhiqfuOg/viewform?embedded=true"
+          height="1150px" width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <!-- </form>  -->
+      </div>
+
+    </div>
+    <!-- Contact me section Ends  -->
+
+
+
+
+  </div>
+
+  <!-- Footer Section  -->
+  <footer class="footer" style="background:rgb(237 237 237);flex-direction:column;">
+    <!-- <img src="images/iitbombay.png" alt="logo-iitbombay" class="footer-img">
+    <div class="footer-content"> -->
+
+    <p class="foo-cont">
+    <ul class="id-links" style="justify-content: center;">
+      <div class="id-icons">
+        <a href="https://www.linkedin.com/in/sarthakpat/" target="_blank" style="width
+      :100%;"><svg xmlns="http://www.w3.org/2000/svg" height="1.5rem" viewBox="0 0 448 512">
+            <style>
+              svg {
+                fill: #5a6372
+              }
+            </style>
+            <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 
+      31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 
+      416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 
+      96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 
+      38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 
+      27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 
+      62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+          </svg></a>
+      </div>
+      <!-- <div class="id-icons">
+          <a href="mailto:sp56@iitbbs.ac.in">
+            <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 512 512">
+              
+              <path
+                d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+            </svg>
+          </a>
+        </div> -->
+      <div class="id-icons">
+        <a href="https://scholar.google.co.in/citations?user=j-zPTm0AAAAJ&hl=en&authuser=1" target="_blank" style="width
+      :100%;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="1.5rem">
+            <path
+              d="M 25 3 C 12.85 3 3 12.85 3 25 C 3 37.15 12.85 47 25 47 C 37.15 47 47 37.15 47 25 C 47 12.85 37.15 3 25 3 z M 21 11 L 38 11 L 36.980469 11.880859 C 36.980469 11.920859 37 11.96 37 12 L 37 17.279297 C 37.6 17.619297 38 18.26 38 19 L 38 25 C 38 26.1 37.1 27 36 27 C 34.9 27 34 26.1 34 25 L 34 19 C 34 18.26 34.4 17.619297 35 17.279297 L 35 13.570312 L 31.410156 16.650391 C 31.760156 17.350391 32 18.200234 32 19.240234 C 32 21.960234 30.480703 23.309766 28.970703 24.509766 C 28.500703 24.989766 27.949219 25.510312 27.949219 26.320312 C 27.949219 27.120313 28.500391 27.570625 28.900391 27.890625 L 30.189453 28.919922 C 31.779453 30.279922 33.220703 31.530547 33.220703 34.060547 C 33.220703 37.510547 29.930469 41 23.730469 41 C 18.500469 41 15.980469 38.47 15.980469 35.75 C 15.980469 34.43 16.629766 32.559531 18.759766 31.269531 C 20.989766 29.879531 24.020391 29.690078 25.650391 29.580078 C 25.140391 28.920078 24.560547 28.230078 24.560547 27.080078 C 24.560547 26.470078 24.749687 26.100391 24.929688 25.650391 C 24.529688 25.690391 24.129531 25.730469 23.769531 25.730469 C 19.969531 25.730469 17.799297 22.85 17.779297 20 L 11 20 L 21 11 z M 24.269531 14.240234 C 23.339531 14.240234 22.33 14.710938 21.75 15.460938 C 21.14 16.220938 20.949219 17.210156 20.949219 18.160156 C 20.949219 20.620156 22.370938 24.699219 25.460938 24.699219 C 26.370938 24.699219 27.339922 24.259922 27.919922 23.669922 C 28.739922 22.819922 28.820312 21.65 28.820312 21 C 28.820312 18.35 27.269531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 25.719062 30.609375 23.769766 30.679219 22.259766 31.199219 C 21.459766 31.499219 19.160156 32.370469 19.160156 34.980469 C 19.160156 37.590469 21.64 39.460938 25.5 39.460938 C 28.97 39.460938 30.800781 37.760234 30.800781 35.490234 C 30.800781 33.620234 29.620859 32.630391 26.880859 30.650391 C 26.590859 30.610391 26.409063 30.609375 26.039062 30.609375 z" />
+          </svg></a>
+      </div>
+      <div style="text-align:center;color:red; font-size:16px;"><a href="mailto:sp56@iitbbs.ac.in"
+          style="color:red;">sp56@iitbbs.ac.in</a></div>
+    </ul>
+    </p>
+    <!-- <p class="foo-cont" style="text-align:center;color:red; font-size:18px;"><span style="color:black;">Email :</span> sp56@iitbbs.ac.in</p> -->
+    <!-- #3300ff -->
+
+    <p class="foo-cont" style="text-align:center;">&#169;&nbsp;Sarthak&nbsp;Patnaik &nbsp;&nbsp;&nbsp;&nbsp;All Rights
+      Reserved</p>
+    <!-- <p class="foo-cont" style="color:#4b0082; font-size:16px; font-weight:700; color:#ff0000d9; color:green;"><i>"The
+        Greatest Threat to Our Planet is the Belief that Someone Else will Save It" - <span style="font-size:16px;">
+          Robert Swan</i></span>
+    </p> -->
+
+    <div class="aim-container" style="text-align: center; display: flex; gap:1rem;">
+      <div class="aim" style="color: green;">
+        <!-- CREATING A GREENER FUTURE -->
+        <i> Creating a Greener Future</i>
+      </div>
+      <div class="aim" style="color:red;">
+        <!-- ONE BATTERY AT A TIME -->
+        <i>One Battery at a Time</i>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <!-- swipeer js  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="counter.js"></script>
+</body>
+
+</html>
